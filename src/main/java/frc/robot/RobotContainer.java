@@ -79,7 +79,7 @@ public class RobotContainer {
             )
         );    
         driveControls.zeroGyro.onTrue(new InstantCommand(() -> s_Swerve.zeroHeading()));
-        driveControls.intakeDown.onTrue(new InstantCommand(() -> Intake.runIntake()));
+        // driveControls.intakeDown.onTrue(new InstantCommand(() -> Intake.runIntake()));
         //add more button bindingss here
     }
 
